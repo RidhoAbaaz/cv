@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+}
+
+/*side profile properties*/
+.profile {
+    background-color: #B2C8BA;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    z-index: 2;
+    margin-left: 70%;
+    background-color: #86A789;
+    width: 80%;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+a {
+    width: 150px;
+}
+/*side profile properties*/
+
+/*data properties*/
+.biodata {
+    background-color: #EBF3E8;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 20%;
+}
+
+.title {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+}
+
+.data {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+
+p {
+    font-size: 18px;
+}
+/*data properties*/
