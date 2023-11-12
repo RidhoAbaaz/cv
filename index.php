@@ -25,7 +25,7 @@ $data = mysqli_fetch_array($fix);
             <h5>Curriculum Vitae</h5>
             <img src="<?php echo $data['Foto_path']; ?>" alt="my foto">
             <a class="btn btn-outline-dark" href="update.php?antrian=$data[id]">UPDATE</a>
-            <a class="btn btn-outline-dark" href="">DOWNLOAD</a>
+            <a class="btn btn-outline-dark" href="./cv Ridho.png" download>DOWNLOAD</a>
         </div>
         <div class="biodata">
             <div class="title">
